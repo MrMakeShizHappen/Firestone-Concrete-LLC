@@ -6,11 +6,11 @@ Static website for Firestone Concrete LLC, Nampa, Idaho. Plain HTML, CSS and a l
 - `index.html`, `services.html`, `work.html`, `about.html`, `contact.html`, `thanks.html`: the pages
 - `tokens.css`, `styles.css`: styles
 - `site.js`: mobile menu and form checks
-- `img/`: job photos
+- `*.jpg`: job photos (kept next to the pages, no subfolder)
 - `sitemap.xml`, `robots.txt`: for search engines
 
 ## Put it online with GitHub Pages
-1. Upload everything in this folder to the root of your repository (keep the `img` folder).
+1. Upload every file in this folder to the root of your repository. There are no subfolders, so select all files and drag them in together.
 2. In the repository, go to Settings > Pages, choose "Deploy from a branch", pick `main` and `/ (root)`, and save.
 3. To use firestoneconcretellc.com: enter it under Settings > Pages > Custom domain, then point the domain's DNS at GitHub Pages as GitHub shows you. Turn on "Enforce HTTPS" once it is available.
 
